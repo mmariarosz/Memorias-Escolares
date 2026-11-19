@@ -1,500 +1,215 @@
-// ======================================================
-// PORTFÓLIO DE REDAÇÕES
-// ======================================================
-//
-// VOCÊ TEM 17 REDAÇÕES.
-//
-// Depois de corrigir cada uma, coloque:
-// 1. O título em "title"
-// 2. O tema em "theme"
-// 3. O texto completo em "text"
-//
-// NÃO PRECISA ALTERAR O RESTANTE DO CÓDIGO.
-// ======================================================
 
+// LISTA DAS 17 REDAÇÕES
 
 const essays = [
-
     {
-        number: "01",
-
+        number: 1,
         title: "Título da redação 01",
-
-        theme: "Tema da redação 01",
-
-        text: `
-COLOQUE AQUI A REDAÇÃO 01.
-
-Depois que você corrigir sua redação,
-apague este texto e cole a versão final aqui.
-        `
+        content: `COLE AQUI O TEXTO COMPLETO DA SUA PRIMEIRA REDAÇÃO.`
     },
-
-
     {
-        number: "02",
-
+        number: 2,
         title: "Título da redação 02",
-
-        theme: "Tema da redação 02",
-
-        text: `
-COLOQUE AQUI A REDAÇÃO 02.
-        `
+        content: `COLE AQUI O TEXTO COMPLETO DA SUA SEGUNDA REDAÇÃO.`
     },
-
-
     {
-        number: "03",
-
+        number: 3,
         title: "Título da redação 03",
-
-        theme: "Tema da redação 03",
-
-        text: `
-COLOQUE AQUI A REDAÇÃO 03.
-        `
+        content: `COLE AQUI O TEXTO COMPLETO DA SUA TERCEIRA REDAÇÃO.`
     },
-
-
     {
-        number: "04",
-
+        number: 4,
         title: "Título da redação 04",
-
-        theme: "Tema da redação 04",
-
-        text: `
-COLOQUE AQUI A REDAÇÃO 04.
-        `
+        content: `COLE AQUI O TEXTO COMPLETO DA SUA QUARTA REDAÇÃO.`
     },
-
-
     {
-        number: "05",
-
+        number: 5,
         title: "Título da redação 05",
-
-        theme: "Tema da redação 05",
-
-        text: `
-COLOQUE AQUI A REDAÇÃO 05.
-        `
+        content: `COLE AQUI O TEXTO COMPLETO DA SUA QUINTA REDAÇÃO.`
     },
-
-
     {
-        number: "06",
-
+        number: 6,
         title: "Título da redação 06",
-
-        theme: "Tema da redação 06",
-
-        text: `
-COLOQUE AQUI A REDAÇÃO 06.
-        `
+        content: `COLE AQUI O TEXTO COMPLETO DA SUA SEXTA REDAÇÃO.`
     },
-
-
     {
-        number: "07",
-
+        number: 7,
         title: "Título da redação 07",
-
-        theme: "Tema da redação 07",
-
-        text: `
-COLOQUE AQUI A REDAÇÃO 07.
-        `
+        content: `COLE AQUI O TEXTO COMPLETO DA SUA SÉTIMA REDAÇÃO.`
     },
-
-
     {
-        number: "08",
-
+        number: 8,
         title: "Título da redação 08",
-
-        theme: "Tema da redação 08",
-
-        text: `
-COLOQUE AQUI A REDAÇÃO 08.
-        `
+        content: `COLE AQUI O TEXTO COMPLETO DA SUA OITAVA REDAÇÃO.`
     },
-
-
     {
-        number: "09",
-
+        number: 9,
         title: "Título da redação 09",
-
-        theme: "Tema da redação 09",
-
-        text: `
-COLOQUE AQUI A REDAÇÃO 09.
-        `
+        content: `COLE AQUI O TEXTO COMPLETO DA SUA NONA REDAÇÃO.`
     },
-
-
     {
-        number: "10",
-
+        number: 10,
         title: "Título da redação 10",
-
-        theme: "Tema da redação 10",
-
-        text: `
-COLOQUE AQUI A REDAÇÃO 10.
-        `
+        content: `COLE AQUI O TEXTO COMPLETO DA SUA DÉCIMA REDAÇÃO.`
     },
-
-
     {
-        number: "11",
-
+        number: 11,
         title: "Título da redação 11",
-
-        theme: "Tema da redação 11",
-
-        text: `
-COLOQUE AQUI A REDAÇÃO 11.
-        `
+        content: `COLE AQUI O TEXTO COMPLETO DA SUA DÉCIMA PRIMEIRA REDAÇÃO.`
     },
-
-
     {
-        number: "12",
-
+        number: 12,
         title: "Título da redação 12",
-
-        theme: "Tema da redação 12",
-
-        text: `
-COLOQUE AQUI A REDAÇÃO 12.
-        `
+        content: `COLE AQUI O TEXTO COMPLETO DA SUA DÉCIMA SEGUNDA REDAÇÃO.`
     },
-
-
     {
-        number: "13",
-
+        number: 13,
         title: "Título da redação 13",
-
-        theme: "Tema da redação 13",
-
-        text: `
-COLOQUE AQUI A REDAÇÃO 13.
-        `
+        content: `COLE AQUI O TEXTO COMPLETO DA SUA DÉCIMA TERCEIRA REDAÇÃO.`
     },
-
-
     {
-        number: "14",
-
+        number: 14,
         title: "Título da redação 14",
-
-        theme: "Tema da redação 14",
-
-        text: `
-COLOQUE AQUI A REDAÇÃO 14.
-        `
+        content: `COLE AQUI O TEXTO COMPLETO DA SUA DÉCIMA QUARTA REDAÇÃO.`
     },
-
-
     {
-        number: "15",
-
+        number: 15,
         title: "Título da redação 15",
-
-        theme: "Tema da redação 15",
-
-        text: `
-COLOQUE AQUI A REDAÇÃO 15.
-        `
+        content: `COLE AQUI O TEXTO COMPLETO DA SUA DÉCIMA QUINTA REDAÇÃO.`
     },
-
-
     {
-        number: "16",
-
+        number: 16,
         title: "Título da redação 16",
-
-        theme: "Tema da redação 16",
-
-        text: `
-COLOQUE AQUI A REDAÇÃO 16.
-        `
+        content: `COLE AQUI O TEXTO COMPLETO DA SUA DÉCIMA SEXTA REDAÇÃO.`
     },
-
-
     {
-        number: "17",
-
+        number: 17,
         title: "Título da redação 17",
-
-        theme: "Tema da redação 17",
-
-        text: `
-COLOQUE AQUI A REDAÇÃO 17.
-        `
+        content: `COLE AQUI O TEXTO COMPLETO DA SUA DÉCIMA SÉTIMA REDAÇÃO.`
     }
-
 ];
 
 
-
-// ======================================================
 // ELEMENTOS DO SITE
-// ======================================================
 
-const essayGrid =
-    document.getElementById("essayGrid");
-
-const modal =
-    document.getElementById("essayModal");
-
-const modalNumber =
-    document.getElementById("modalNumber");
-
-const modalTitle =
-    document.getElementById("modalTitle");
-
-const modalTheme =
-    document.getElementById("modalTheme");
-
-const modalText =
-    document.getElementById("modalText");
-
-const modalClose =
-    document.getElementById("modalClose");
+const essayGrid = document.getElementById("essayGrid");
+const searchEssay = document.getElementById("searchEssay");
+const emptyState = document.getElementById("emptyState");
+const modal = document.getElementById("essayModal");
 
 
+// MOSTRAR AS REDAÇÕES
 
-// ======================================================
-// CRIAR OS CARDS DAS 17 REDAÇÕES
-// ======================================================
+function renderEssays(filter = "") {
 
-function renderEssays() {
+    const term = filter.toLocaleLowerCase("pt-BR");
+
+    const filtered = essays.filter(essay =>
+        `${essay.title} ${essay.number}`
+            .toLocaleLowerCase("pt-BR")
+            .includes(term)
+    );
 
     essayGrid.innerHTML = "";
 
-    essays.forEach((essay, index) => {
+    filtered.forEach(essay => {
 
-        const card =
-            document.createElement("article");
+        const card = document.createElement("button");
 
-        card.classList.add("essay-card");
-
-        card.setAttribute("tabindex", "0");
+        card.className = "essay-card";
+        card.type = "button";
 
         card.innerHTML = `
+            <span class="essay-num">
+                REDAÇÃO ${String(essay.number).padStart(2, "0")}
+            </span>
 
-            <div>
+            <h3>${essay.title}</h3>
 
-                <div class="essay-number">
-                    ${essay.number}
-                </div>
-
-                <h3>
-                    ${essay.title}
-                </h3>
-
-                <p>
-                    ${essay.theme}
-                </p>
-
-            </div>
-
+            <span>ABRIR LEITURA ↗</span>
         `;
 
-
-        // Abrir redação ao clicar
-
-        card.addEventListener(
-            "click",
-            () => openEssay(index)
-        );
-
-
-        // Abrir usando Enter
-
-        card.addEventListener(
-            "keydown",
-            (event) => {
-
-                if (
-                    event.key === "Enter" ||
-                    event.key === " "
-                ) {
-
-                    event.preventDefault();
-
-                    openEssay(index);
-
-                }
-
-            }
-        );
-
+        card.addEventListener("click", () => {
+            openEssay(essay);
+        });
 
         essayGrid.appendChild(card);
 
     });
 
+    emptyState.hidden = filtered.length !== 0;
 }
 
 
+// ABRIR A REDAÇÃO
 
-// ======================================================
-// ABRIR REDAÇÃO
-// ======================================================
+function openEssay(essay) {
 
-function openEssay(index) {
+    document.getElementById("modalNumber").textContent =
+        `REDAÇÃO ${String(essay.number).padStart(2, "0")}`;
 
-    const essay = essays[index];
-
-
-    modalNumber.textContent =
-        `REDAÇÃO ${essay.number}`;
-
-
-    modalTitle.textContent =
+    document.getElementById("modalTitle").textContent =
         essay.title;
 
+    document.getElementById("modalContent").textContent =
+        essay.content;
 
-    modalTheme.textContent =
-        essay.theme;
-
-
-    modalText.textContent =
-        essay.text;
-
-
-    modal.classList.add("active");
-
-    modal.setAttribute(
-        "aria-hidden",
-        "false"
-    );
-
-
-    document.body.style.overflow =
-        "hidden";
+    modal.showModal();
 }
 
 
+// PESQUISAR REDAÇÕES
 
-// ======================================================
-// FECHAR REDAÇÃO
-// ======================================================
+searchEssay.addEventListener("input", event => {
 
-function closeEssay() {
+    renderEssays(event.target.value);
 
-    modal.classList.remove("active");
-
-    modal.setAttribute(
-        "aria-hidden",
-        "true"
-    );
+});
 
 
-    document.body.style.overflow =
-        "";
-}
+// FECHAR A JANELA
 
+document.getElementById("modalClose").addEventListener("click", () => {
 
+    modal.close();
 
-// ======================================================
-// BOTÃO FECHAR
-// ======================================================
+});
 
-modalClose.addEventListener(
-    "click",
-    closeEssay
-);
+modal.addEventListener("click", event => {
 
-
-
-// ======================================================
-// CLICAR FORA DA REDAÇÃO
-// ======================================================
-
-document
-    .querySelector(".modal-backdrop")
-    .addEventListener(
-        "click",
-        closeEssay
-    );
-
-
-
-// ======================================================
-// TECLA ESC
-// ======================================================
-
-document.addEventListener(
-    "keydown",
-    (event) => {
-
-        if (event.key === "Escape") {
-
-            closeEssay();
-
-        }
-
+    if (event.target === modal) {
+        modal.close();
     }
-);
+
+});
 
 
+// MENU PARA CELULAR
 
-// ======================================================
-// MENU MOBILE
-// ======================================================
+const menuToggle = document.getElementById("menuToggle");
+const mainNav = document.getElementById("mainNav");
 
-const menuToggle =
-    document.getElementById("menuToggle");
+menuToggle.addEventListener("click", () => {
 
-const navLinks =
-    document.getElementById("navLinks");
+    const isOpen = mainNav.classList.toggle("open");
 
+    menuToggle.setAttribute("aria-expanded", String(isOpen));
 
-menuToggle.addEventListener(
-    "click",
-    () => {
+});
 
-        navLinks.classList.toggle(
-            "mobile-open"
-        );
+mainNav.querySelectorAll("a").forEach(link => {
 
-    }
-);
+    link.addEventListener("click", () => {
 
+        mainNav.classList.remove("open");
 
-
-// ======================================================
-// FECHAR MENU AO CLICAR EM UM LINK
-// ======================================================
-
-document
-    .querySelectorAll(".nav-links a")
-    .forEach(link => {
-
-        link.addEventListener(
-            "click",
-            () => {
-
-                navLinks.classList.remove(
-                    "mobile-open"
-                );
-
-            }
-        );
+        menuToggle.setAttribute("aria-expanded", "false");
 
     });
 
+});
 
 
-// ======================================================
-// INICIAR OS CARDS
-// ======================================================
+// INICIAR O SITE
 
 renderEssays();

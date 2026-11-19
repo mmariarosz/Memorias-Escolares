@@ -1,725 +1,392 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio | Memórias Escolares</title>
 
-    <meta name="description"
-        content="Portfólio pessoal com memórias escolares e redações do Ensino Médio">
-
-    <title>Minha Trajetória Escolar</title>
-
-    <!-- FONTES -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link
-        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600;1,700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
 
-    <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-    <!-- ==============================
-         MENU
-    =============================== -->
+<header class="topbar">
+    <a class="brand" href="#inicio">MEU <span>PORTFÓLIO</span></a>
 
-    <header class="hero" id="inicio">
+    <button class="menu-toggle" id="menuToggle">☰</button>
 
-        <nav class="navbar">
+    <nav id="mainNav">
+        <a href="#sobre">Sobre mim</a>
+        <a href="#memorias">Memórias</a>
+        <a href="#redacoes">Redações</a>
+    </nav>
+</header>
 
-            <a href="#inicio" class="logo">
-                MINHA<span>HISTÓRIA</span>
-            </a>
+<main>
 
-            <button class="menu-toggle" id="menuToggle">
-                ☰
-            </button>
+    <!-- INÍCIO -->
+    <section class="hero" id="inicio">
 
-            <div class="nav-links" id="navLinks">
-                <a href="#sobre">Sobre</a>
-                <a href="#memorias">Memórias</a>
-                <a href="#linha-do-tempo">Trajetória</a>
-                <a href="#redacoes">Redações</a>
-            </div>
+        <div class="hero-text">
+            <p class="eyebrow">ENSINO MÉDIO • 2026</p>
 
-        </nav>
+            <h1>Uma história feita<br><em>de momentos.</em></h1>
 
-
-        <!-- ==============================
-             CAPA
-        =============================== -->
-
-        <div class="hero-content">
-
-            <div class="hero-copy">
-
-                <p class="eyebrow">
-                    MINHA TRAJETÓRIA • ENSINO MÉDIO
-                </p>
-
-                <h1>
-                    Uma história
-                    <br>
-                    <em>em capítulos.</em>
-                </h1>
-
-                <p class="hero-text">
-                    Um espaço para guardar lembranças,
-                    aprendizados, desafios, conquistas e
-                    momentos que fizeram parte da minha
-                    trajetória escolar.
-                </p>
-
-                <a href="#memorias" class="button">
-                    Explorar minhas memórias ↓
-                </a>
-
-            </div>
-
-
-            <!-- FOTO PRINCIPAL -->
-
-            <div class="hero-photo">
-
-                <!--
-                    TROQUE "foto-capa.jpg"
-                    PELO NOME DA SUA FOTO.
-
-                    A foto deve estar dentro da pasta:
-                    assets/
-                -->
-
-                <img
-                    src="assets/foto-capa.jpg"
-                    alt="Foto da formanda"
-                    class="main-photo"
-                >
-
-                <div class="photo-note">
-                    MY SCHOOL STORY
-                </div>
-
-            </div>
-
-        </div>
-
-
-        <div class="hero-bottom">
-
-            <span>
-                PORTFÓLIO PESSOAL
-            </span>
-
-            <span>
-                MEMÓRIAS + REDAÇÕES
-            </span>
-
-            <span>
-                SCROLL ↓
-            </span>
-
-        </div>
-
-    </header>
-
-
-
-    <main>
-
-        <!-- ==============================
-             SOBRE
-        =============================== -->
-
-        <section class="intro section" id="sobre">
-
-            <div class="section-label">
-                01 / SOBRE
-            </div>
-
-            <div class="intro-grid">
-
-                <div>
-
-                    <p class="display-title">
-
-                        Antes de ser
-                        <br>
-
-                        <em>formanda,</em>
-
-                        <br>
-
-                        fui estudante.
-
-                    </p>
-
-                </div>
-
-
-                <div class="intro-text">
-
-                    <!--
-                        ESCREVA AQUI SUA APRESENTAÇÃO.
-
-                        Exemplo:
-                        "Meu nome é Maria e este site..."
-                    -->
-
-                    <p>
-                        ESCREVA AQUI SUA APRESENTAÇÃO PESSOAL.
-
-                        Conte um pouco sobre você,
-                        sua escola e o objetivo deste
-                        portfólio.
-                    </p>
-
-                    <p class="small-note">
-                        ✦ UM REGISTRO DA MINHA TRAJETÓRIA ESCOLAR
-                    </p>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-
-        <!-- ==============================
-             MEMÓRIAS
-        =============================== -->
-
-        <section class="memories section" id="memorias">
-
-            <div class="section-heading">
-
-                <div>
-
-                    <div class="section-label">
-                        02 / MEMÓRIAS ESCOLARES
-                    </div>
-
-                    <h2>
-                        Momentos que
-                        <br>
-                        <em>ficaram.</em>
-                    </h2>
-
-                </div>
-
-                <p>
-                    Uma retrospectiva visual
-                    da minha vida escolar.
-                </p>
-
-            </div>
-
-
-            <div class="memory-grid">
-
-                <!-- INFÂNCIA -->
-
-                <article class="memory-card large">
-
-                    <div class="memory-image">
-
-                        <img
-                            src="assets/infancia.jpg"
-                            alt="Foto da infância"
-                        >
-
-                    </div>
-
-                    <div class="memory-info">
-
-                        <span>
-                            01 • INFÂNCIA
-                        </span>
-
-                        <h3>
-                            Os primeiros passos
-                        </h3>
-
-                        <p>
-                            ESCREVA AQUI SUA MEMÓRIA
-                            DA EDUCAÇÃO INFANTIL.
-                        </p>
-
-                    </div>
-
-                </article>
-
-
-                <!-- FUNDAMENTAL -->
-
-                <article class="memory-card">
-
-                    <div class="memory-image">
-
-                        <img
-                            src="assets/fundamental.jpg"
-                            alt="Foto do Ensino Fundamental"
-                        >
-
-                    </div>
-
-                    <div class="memory-info">
-
-                        <span>
-                            02 • FUNDAMENTAL
-                        </span>
-
-                        <h3>
-                            Descobertas
-                        </h3>
-
-                        <p>
-                            ESCREVA AQUI UMA
-                            LEMBRANÇA DO ENSINO FUNDAMENTAL.
-                        </p>
-
-                    </div>
-
-                </article>
-
-
-                <!-- ENSINO MÉDIO -->
-
-                <article class="memory-card">
-
-                    <div class="memory-image">
-
-                        <img
-                            src="assets/ensino-medio.jpg"
-                            alt="Foto do Ensino Médio"
-                        >
-
-                    </div>
-
-                    <div class="memory-info">
-
-                        <span>
-                            03 • ENSINO MÉDIO
-                        </span>
-
-                        <h3>
-                            Um novo começo
-                        </h3>
-
-                        <p>
-                            ESCREVA AQUI UMA MEMÓRIA
-                            DO INÍCIO DO ENSINO MÉDIO.
-                        </p>
-
-                    </div>
-
-                </article>
-
-            </div>
-
-        </section>
-
-
-
-        <!-- ==============================
-             LINHA DO TEMPO
-        =============================== -->
-
-        <section class="timeline section" id="linha-do-tempo">
-
-            <div class="section-label">
-                03 / LINHA DO TEMPO
-            </div>
-
-            <h2>
-                De ano em ano,
-                <br>
-                <em>uma nova versão.</em>
-            </h2>
-
-
-            <div class="timeline-list">
-
-                <!-- PRÉ -->
-
-                <article class="timeline-item">
-
-                    <div class="year">
-                        PRÉ
-                    </div>
-
-                    <div class="timeline-content">
-
-                        <h3>
-                            Educação Infantil
-                        </h3>
-
-                        <p>
-                            ESCREVA AQUI SOBRE SUA
-                            EDUCAÇÃO INFANTIL.
-                        </p>
-
-                    </div>
-
-                    <div class="timeline-photo">
-
-                        <img
-                            src="assets/pre-escola.jpg"
-                            alt="Educação Infantil"
-                        >
-
-                    </div>
-
-                </article>
-
-
-                <!-- 1º AO 5º -->
-
-                <article class="timeline-item">
-
-                    <div class="year">
-                        1º–5º
-                    </div>
-
-                    <div class="timeline-content">
-
-                        <h3>
-                            Anos iniciais
-                        </h3>
-
-                        <p>
-                            ESCREVA AQUI SOBRE OS
-                            ANOS INICIAIS.
-                        </p>
-
-                    </div>
-
-                    <div class="timeline-photo">
-
-                        <img
-                            src="assets/anos-iniciais.jpg"
-                            alt="Anos iniciais"
-                        >
-
-                    </div>
-
-                </article>
-
-
-                <!-- 6º AO 9º -->
-
-                <article class="timeline-item">
-
-                    <div class="year">
-                        6º–9º
-                    </div>
-
-                    <div class="timeline-content">
-
-                        <h3>
-                            Anos finais
-                        </h3>
-
-                        <p>
-                            ESCREVA AQUI SOBRE OS
-                            ANOS FINAIS DO FUNDAMENTAL.
-                        </p>
-
-                    </div>
-
-                    <div class="timeline-photo">
-
-                        <img
-                            src="assets/anos-finais.jpg"
-                            alt="Anos finais"
-                        >
-
-                    </div>
-
-                </article>
-
-
-                <!-- 1º ANO -->
-
-                <article class="timeline-item highlight">
-
-                    <div class="year">
-                        1º
-                    </div>
-
-                    <div class="timeline-content">
-
-                        <h3>
-                            Primeiro ano do Ensino Médio
-                        </h3>
-
-                        <p>
-                            ESCREVA AQUI SOBRE O SEU
-                            PRIMEIRO ANO.
-                        </p>
-
-                    </div>
-
-                    <div class="timeline-photo">
-
-                        <img
-                            src="assets/primeiro-ano.jpg"
-                            alt="Primeiro ano"
-                        >
-
-                    </div>
-
-                </article>
-
-
-                <!-- 2º ANO -->
-
-                <article class="timeline-item">
-
-                    <div class="year">
-                        2º
-                    </div>
-
-                    <div class="timeline-content">
-
-                        <h3>
-                            Segundo ano
-                        </h3>
-
-                        <p>
-                            ESCREVA AQUI SOBRE O SEU
-                            SEGUNDO ANO.
-                        </p>
-
-                    </div>
-
-                    <div class="timeline-photo">
-
-                        <img
-                            src="assets/segundo-ano.jpg"
-                            alt="Segundo ano"
-                        >
-
-                    </div>
-
-                </article>
-
-
-                <!-- 3º ANO -->
-
-                <article class="timeline-item final">
-
-                    <div class="year">
-                        3º
-                    </div>
-
-                    <div class="timeline-content">
-
-                        <h3>
-                            O último capítulo
-                        </h3>
-
-                        <p>
-                            ESCREVA AQUI SOBRE O SEU
-                            TERCEIRO ANO E A CONCLUSÃO
-                            DO ENSINO MÉDIO.
-                        </p>
-
-                    </div>
-
-                    <div class="timeline-photo">
-
-                        <img
-                            src="assets/terceiro-ano.jpg"
-                            alt="Terceiro ano"
-                        >
-
-                    </div>
-
-                </article>
-
-            </div>
-
-        </section>
-
-
-
-        <!-- ==============================
-             FRASE
-        =============================== -->
-
-        <section class="quotes section">
-
-            <div class="quote-card">
-
-                <span class="quote-mark">
-                    “
-                </span>
-
-                <p class="quote">
-                    Algumas histórias terminam.
-                    Outras continuam em tudo
-                    aquilo que aprendemos.
-                </p>
-
-                <span class="quote-author">
-                    — MINHA TRAJETÓRIA
-                </span>
-
-            </div>
-
-        </section>
-
-
-
-        <!-- ==============================
-             REDAÇÕES
-        =============================== -->
-
-        <section class="essays section" id="redacoes">
-
-            <div class="section-heading">
-
-                <div>
-
-                    <div class="section-label">
-                        04 / PORTFÓLIO DE REDAÇÕES
-                    </div>
-
-                    <h2>
-                        17 textos,
-                        <br>
-                        <em>17 ideias.</em>
-                    </h2>
-
-                </div>
-
-                <p>
-                    Clique em uma redação para
-                    abrir o texto completo.
-                </p>
-
-            </div>
-
-
-            <!--
-                OS 17 CARDS SERÃO CRIADOS
-                AUTOMATICAMENTE PELO JAVASCRIPT.
-            -->
-
-            <div
-                class="essay-grid"
-                id="essayGrid">
-            </div>
-
-        </section>
-
-
-
-        <!-- ==============================
-             FINAL
-        =============================== -->
-
-        <section class="closing section">
-
-            <div class="closing-inner">
-
-                <p class="eyebrow">
-                    FIM DE UMA ETAPA • INÍCIO DE OUTRAS
-                </p>
-
-                <h2>
-                    Obrigada por
-                    <br>
-                    <em>fazer parte.</em>
-                </h2>
-
-                <p>
-                    Este site é um registro de tudo
-                    aquilo que não quero esquecer.
-                </p>
-
-                <a href="#inicio" class="button light">
-                    Voltar ao início ↑
-                </a>
-
-            </div>
-
-        </section>
-
-    </main>
-
-
-
-    <!-- ==============================
-         RODAPÉ
-    =============================== -->
-
-    <footer>
-
-        <p>
-            ©️ 2026 • MEU PORTFÓLIO ESCOLAR
-        </p>
-
-        <p>
-            HTML • CSS • JAVASCRIPT
-        </p>
-
-    </footer>
-
-
-
-    <!-- ==============================
-         MODAL DAS REDAÇÕES
-    =============================== -->
-
-    <div
-        class="modal"
-        id="essayModal"
-        aria-hidden="true">
-
-        <div class="modal-backdrop"></div>
-
-        <div class="modal-window">
-
-            <button
-                class="modal-close"
-                id="modalClose">
-                ×
-            </button>
-
-            <div
-                class="modal-number"
-                id="modalNumber">
-            </div>
-
-            <h2 id="modalTitle">
-            </h2>
-
-            <p
-                class="modal-theme"
-                id="modalTheme">
+            <p class="hero-subtitle">
+                Memórias, aprendizados e palavras que marcaram minha caminhada.
             </p>
 
-            <div
-                class="modal-text"
-                id="modalText">
+            <a class="button button-light" href="#memorias">
+                Conheça minha trajetória ↘
+            </a>
+        </div>
+
+        <div class="hero-photo">
+            <div class="photo-placeholder hero-placeholder">
+                <span>ADICIONE AQUI</span>
+                <strong>Sua foto favorita</strong>
+                <small>Minha foto</small>
             </div>
+
+            <span class="hero-stamp">MINHA<br>JORNADA</span>
+        </div>
+
+        <div class="hero-bottom">
+            DO PRIMEIRO DIA DE AULA ATÉ AQUI
+            <span>✳</span>
+            UMA VIDA DE DESCOBERTAS
+        </div>
+
+    </section>
+
+
+    <!-- SOBRE MIM -->
+    <section class="intro section-wrap" id="sobre">
+
+        <div class="section-kicker">01 / QUEM SOU EU</div>
+
+        <div class="intro-content">
+
+            <h2>Prazer,<br><em>essa sou eu.</em></h2>
+
+            <div>
+
+                <p class="intro-lead">
+                    Toda trajetória é feita de pequenos começos,
+                    grandes mudanças e pessoas que deixam marcas.
+                </p>
+
+                <p>
+                    Meu nome é <strong>[SEU NOME]</strong> e este espaço
+                    reúne um pouco de quem fui, de quem sou e de tudo
+                    o que vivi durante minha vida escolar.
+                    Aqui estão lembranças, desafios, conquistas e textos
+                    que fizeram parte da minha formação.
+                </p>
+
+                <p class="signature">
+                    Com carinho, <span>[Seu nome]</span>
+                </p>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- MEMÓRIAS ESCOLARES -->
+    <section class="memories-section" id="memorias">
+
+        <div class="section-wrap">
+
+            <div class="section-heading">
+
+                <div>
+                    <div class="section-kicker">02 / MINHA CAMINHADA</div>
+                    <h2>Memórias <em>escolares</em></h2>
+                </div>
+
+                <p>
+                    Uma viagem no tempo por cada fase que me trouxe
+                    até o final do Ensino Médio.
+                </p>
+
+            </div>
+
+
+            <!-- FUNDAMENTAL 1 -->
+            <article class="school-stage">
+
+                <div class="stage-heading">
+
+                    <span class="stage-number">01</span>
+
+                    <div>
+                        <p class="eyebrow">OS PRIMEIROS PASSOS</p>
+                        <h3>Fundamental <em>1</em></h3>
+                        <p class="stage-years">
+                            Jardim de Infância, Pré-escola e anos iniciais
+                        </p>
+                    </div>
+
+                </div>
+
+                <p class="stage-story">
+                    Foi nessa fase que começaram muitas das minhas
+                    primeiras lembranças da escola. Aprendi a fazer
+                    amizades, descobri coisas novas e vivi momentos
+                    que guardo com carinho.
+
+                    <strong>
+                        [Escreva aqui uma lembrança marcante,
+                        uma professora especial ou uma curiosidade dessa época.]
+                    </strong>
+                </p>
+
+                <div class="photo-grid">
+
+                    <div class="memory-photo">
+                        <img src="assets/fundamental-1/foto-1.jpg" alt="Fundamental 1">
+                        <span>01 · Primeiras lembranças</span>
+                    </div>
+
+                    <div class="memory-photo">
+                        <img src="assets/fundamental-1/foto-2.jpg" alt="Fundamental 1">
+                        <span>02 · Amigos e descobertas</span>
+                    </div>
+
+                    <div class="memory-photo">
+                        <img src="assets/fundamental-1/foto-3.jpg" alt="Fundamental 1">
+                        <span>03 · Um dia especial</span>
+                    </div>
+
+                    <div class="memory-photo">
+                        <img src="assets/fundamental-1/foto-4.jpg" alt="Fundamental 1">
+                        <span>04 · Uma lembrança querida</span>
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- FUNDAMENTAL 2 -->
+            <article class="school-stage">
+
+                <div class="stage-heading">
+
+                    <span class="stage-number">02</span>
+
+                    <div>
+                        <p class="eyebrow">NOVAS DESCOBERTAS</p>
+                        <h3>Fundamental <em>2</em></h3>
+                        <p class="stage-years">
+                            Anos finais do Ensino Fundamental
+                        </p>
+                    </div>
+
+                </div>
+
+                <p class="stage-story">
+                    Com o passar dos anos, vieram novas matérias,
+                    responsabilidades e mudanças. Também surgiram
+                    amizades, histórias engraçadas e desafios que
+                    me ajudaram a crescer.
+
+                    <strong>
+                        [Conte como foi essa fase e cite um momento
+                        que não sai da sua memória.]
+                    </strong>
+                </p>
+
+                <div class="photo-grid">
+
+                    <div class="memory-photo">
+                        <img src="assets/fundamental-2/foto-1.jpg" alt="Fundamental 2">
+                        <span>01 · Minha turma</span>
+                    </div>
+
+                    <div class="memory-photo">
+                        <img src="assets/fundamental-2/foto-2.jpg" alt="Fundamental 2">
+                        <span>02 · Um momento divertido</span>
+                    </div>
+
+                    <div class="memory-photo">
+                        <img src="assets/fundamental-2/foto-3.jpg" alt="Fundamental 2">
+                        <span>03 · Uma conquista</span>
+                    </div>
+
+                    <div class="memory-photo">
+                        <img src="assets/fundamental-2/foto-4.jpg" alt="Fundamental 2">
+                        <span>04 · Pessoas especiais</span>
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- ENSINO MÉDIO -->
+            <article class="school-stage">
+
+                <div class="stage-heading">
+
+                    <span class="stage-number">03</span>
+
+                    <div>
+                        <p class="eyebrow">O ÚLTIMO CAPÍTULO</p>
+                        <h3>Ensino <em>Médio</em></h3>
+                        <p class="stage-years">1º, 2º e 3º ano</p>
+                    </div>
+
+                </div>
+
+                <p class="stage-story">
+                    O Ensino Médio foi uma etapa de amadurecimento,
+                    aprendizados e experiências que vou levar comigo.
+                    Entre provas, trabalhos, risadas e despedidas,
+                    construí lembranças que representam o encerramento
+                    de um ciclo muito importante.
+
+                    <strong>
+                        [Complete com seus melhores causos,
+                        desafios superados e expectativas para o futuro.]
+                    </strong>
+                </p>
+
+                <div class="photo-grid">
+
+                    <div class="memory-photo">
+                        <img src="assets/ensino-medio/foto-1.jpg" alt="Ensino Médio">
+                        <span>01 · Primeiro ano</span>
+                    </div>
+
+                    <div class="memory-photo">
+                        <img src="assets/ensino-medio/foto-2.jpg" alt="Ensino Médio">
+                        <span>02 · Segundo ano</span>
+                    </div>
+
+                    <div class="memory-photo">
+                        <img src="assets/ensino-medio/foto-3.jpg" alt="Ensino Médio">
+                        <span>03 · Terceiro ano</span>
+                    </div>
+
+                    <div class="memory-photo">
+                        <img src="assets/ensino-medio/foto-4.jpg" alt="Ensino Médio">
+                        <span>04 · Uma memória inesquecível</span>
+                    </div>
+
+                </div>
+
+            </article>
+
+        </div>
+    </section>
+
+
+    <!-- FRASE -->
+    <section class="quote-band">
+
+        <span>✳</span>
+
+        <p>
+            “O que vivemos na escola não fica apenas nos cadernos.
+            Fica nas lembranças que levamos para a vida.”
+        </p>
+
+        <span>✳</span>
+
+    </section>
+
+
+    <!-- REDAÇÕES -->
+    <section class="writing-section section-wrap" id="redacoes">
+
+        <div class="section-heading">
+
+            <div>
+                <div class="section-kicker">03 / PALAVRAS QUE FICAM</div>
+                <h2>Portfólio de <em>redações</em></h2>
+            </div>
+
+            <p>
+                17 produções desenvolvidas nas aulas de Língua Portuguesa
+                e Redação. Clique em cada card para abrir a leitura.
+            </p>
 
         </div>
 
-    </div>
+        <div class="writing-tools">
+
+            <label for="searchEssay">ENCONTRE UMA REDAÇÃO</label>
+
+            <input
+                id="searchEssay"
+                type="search"
+                placeholder="Pesquisar pelo título ou número..."
+            >
+
+        </div>
+
+        <div class="essay-grid" id="essayGrid"></div>
+
+        <p class="empty-state" id="emptyState" hidden>
+            Nenhuma redação encontrada. Tente outro termo.
+        </p>
+
+    </section>
 
 
+    <!-- FINAL -->
+    <section class="closing">
 
-    <!-- JAVASCRIPT -->
-    <script src="js/script.js"></script>
+        <p class="eyebrow">
+            UM CICLO SE ENCERRA, OUTROS COMEÇAM
+        </p>
+
+        <h2>
+            Obrigada por fazerem<br>
+            parte da <em>minha história.</em>
+        </h2>
+
+        <p>
+            Levo comigo cada aprendizado, cada amizade e cada lembrança.
+        </p>
+
+        <a href="#inicio" class="button button-dark">
+            Voltar ao início ↑
+        </a>
+
+    </section>
+
+</main>
+
+
+<footer>
+    <span>MEU PORTFÓLIO • 2026</span>
+    <span>Feito com carinho e muitas memórias ✳</span>
+</footer>
+
+
+<!-- JANELA DAS REDAÇÕES -->
+<dialog id="essayModal" class="essay-modal">
+
+    <button class="modal-close" id="modalClose">×</button>
+
+    <p class="eyebrow" id="modalNumber">REDAÇÃO 01</p>
+
+    <h2 id="modalTitle">Título da redação</h2>
+
+    <div class="modal-content" id="modalContent"></div>
+
+</dialog>
+
+
+<script src="js/script.js"></script>
 
 </body>
-
 </html>
